@@ -6,7 +6,7 @@
     h = canvas.height = innerHeight,
     particles = [],
     properties = {
-        bgColor             : 'rgba(255, 255, 255, 255)',
+        bgColor             : 'rgba(0, 106, 255, 1)',
         particleColor       : 'rgba(255, 255, 255, 255)',
         particleRadius      : 3,
         particleCount       : 60,
@@ -72,7 +72,7 @@
                 if(length < properties.lineLength){
                     opacity = 1-length/properties.lineLength;
                     ctx.lineWidth = '0.5';
-                    ctx.strokeStyle = 'rgba(255, 40, 40, '+opacity+')';
+                    ctx.strokeStyle = 'rgba(255, 255, 255, '+opacity+')';
                     ctx.beginPath();
                     ctx.moveTo(x1, y1);
                     ctx.lineTo(x2, y2);
