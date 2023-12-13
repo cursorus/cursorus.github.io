@@ -6,8 +6,8 @@
     h = canvas.height = innerHeight,
     particles = [],
     properties = {
-        bgColor             : 'rgba(17, 17, 19, 1)',
-        particleColor       : 'rgba(0, 106, 255, 1)',
+        bgColor             : 'rgba(0, 106, 255, 1)',
+        particleColor       : 'rgba(255, 255, 255, 255)',
         particleRadius      : 3,
         particleCount       : 60,
         particleMaxVelocity : 0.5,
