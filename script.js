@@ -9,7 +9,7 @@
         bgColor             : 'rgba(0, 106, 255, 1)',
         particleColor       : 'rgba(255, 255, 255, 255)',
         particleRadius      : 3,
-        particleCount       : 60,
+        particleCount       : 100,
         particleMaxVelocity : 0.5,
         lineLength          : 150,
         particleLife        : 6,
